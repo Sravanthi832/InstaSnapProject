@@ -10,7 +10,7 @@ public class VerifyElectronicProduct extends BaseTest {
 	public void createProduct()
 	{
 		Reporter.log("Electronic product created",true);
-	}
+	}1
 	@Test(priority=2,invocationCount=2,dependsOnMethods="createProduct")
 	public void updateProduct()
 	{
